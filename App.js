@@ -1,4 +1,5 @@
 import 'react-native-gesture-handler';
+
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { Provider } from 'react-redux';
@@ -19,7 +20,7 @@ const RootNavigator = () => {
     <GestureHandlerRootView style={{ flex: 1 }}>
 
 <StatusBar
-        translucent={true}
+        translucent={false}
         backgroundColor="transparent"
         barStyle="light-content"
       />    
