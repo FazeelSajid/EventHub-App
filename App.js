@@ -21,7 +21,7 @@ const RootNavigator = () => {
 
 <StatusBar
         translucent={false}
-        backgroundColor="transparent"
+        backgroundColor="red"
         barStyle="light-content"
       />    
       <NavigationContainer>
