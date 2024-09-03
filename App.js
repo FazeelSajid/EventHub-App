@@ -1,12 +1,41 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import 'react-native-gesture-handler';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { Provider } from 'react-redux';
+import store from './src/redux-toolkit/Store/Store';
+import AuthStack from './src/navigations/AuthStack/AuthStack';
+import AppStack from './src/navigations/AppStack/AppStack';
+import useAuth from './src/redux-toolkit/StateHooks/useAuth';
 
-export default function App() {
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { StatusBar } from 'react-native';
+import { COLORS } from './src/constants/colors/COLORS';
+
+const RootNavigator = () => {
+  const { authState } = useAuth();
+  const isAuthenticated = authState.isAuthenticated;
+
   return (
-    <View>
-      <Text>App</Text>
-    </View>
-  )
-}
+    <GestureHandlerRootView style={{ flex: 1 }}>
 
-const styles = StyleSheet.create({})
+<StatusBar
+        translucent={true}
+        backgroundColor="transparent"
+        barStyle="light-content"
+      />    
+      <NavigationContainer>
+      {isAuthenticated ? <AppStack /> : <AuthStack />}
+    </NavigationContainer>
+    </GestureHandlerRootView>
+  );
+};
+
+const App = () => {
+  return (
+    <Provider store={store}>
+      <RootNavigator />
+    </Provider>
+  );
+};
+
+export default App;
