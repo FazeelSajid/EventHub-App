@@ -1,4 +1,4 @@
-import {ScrollView, StyleSheet, TouchableOpacity, View} from 'react-native';
+import {ScrollView, StatusBar, StyleSheet, TouchableOpacity, View} from 'react-native';
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {AppStyles} from '../../../../utils/Styles';
 import CustomHeader from '../../../../components/CustomHeader';
@@ -83,6 +83,11 @@ const Events = ({navigation, route}) => {
 
   return (
     <View style={AppStyles.searchMainContainer}>
+         {/* <StatusBar
+                    translucent={false}
+                    backgroundColor={COLORS.primary2}
+                    barStyle="dark-content"
+                  />  */}
       {showPopUp && (
         <PopUp
           color={COLORS.green}

@@ -1,5 +1,5 @@
 import React, {useMemo, useRef, useState} from 'react';
-import {StyleSheet, ScrollView, View, FlatList} from 'react-native';
+import {StyleSheet, ScrollView, View, FlatList, StatusBar} from 'react-native';
 import LocationCard from './Components/LocationCard';
 import Badge from '../../../../components/Badge';
 import CustomButton from '../../../../components/customButton';
@@ -106,6 +106,11 @@ const Explore = ({navigation}) => {
 
   return (
     <BottomSheetModalProvider>
+      {/* <StatusBar
+              translucent={false}
+              backgroundColor={COLORS.primary2}
+              barStyle="light-content"
+            />  */}
       <ScrollView style={AppStyles.mainContainer}>
       {showPopUp && (
           <PopUp

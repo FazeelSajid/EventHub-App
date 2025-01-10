@@ -3,6 +3,7 @@ import { AppStyles } from "../../../../../utils/Styles";
 import CustomButton from "../../../../../components/customButton";
 import React from "react";
 import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { COLORS } from "../../../../../constants/colors/COLORS";
 
 
 export const FilterCategoryItem = React.memo(({item, index, isSelected, onSelect}) => (

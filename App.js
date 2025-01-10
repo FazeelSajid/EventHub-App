@@ -21,8 +21,8 @@ const RootNavigator = () => {
 
 <StatusBar
         translucent={false}
-        backgroundColor="red"
-        barStyle="light-content"
+        backgroundColor="white"
+        barStyle="dark-content"
       />    
       <NavigationContainer>
       {isAuthenticated ? <AppStack /> : <AuthStack />}
