@@ -1,79 +1,81 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# EventHub App Overview
 
-# Getting Started
+**EventHub App** was designed to provide a vibrant and intuitive platform for users to create, join, and manage events seamlessly. Built using **React Native**, the app focuses on user-centric design with features like event creation, organizer following, and friend invitations, all demonstrated with dummy data for a showcase-ready UI/UX.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+---
 
-## Step 1: Start the Metro Server
+## **Project Details**
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- **Client:** Internal/Portfolio Project  
+- **Duration:** 4 Weeks  
+- **Collaboration:** Solo Development  
+- **Objective:** Event Management App UI/UX  
+- **Platform:** Mobile App (React Native)  
+- **Focus:** UI/UX Design and Prototype  
 
-To start Metro, run the following command from the _root_ of your React Native project:
+---
 
-```bash
-# using npm
-npm start
+## **Key Features**
 
-# OR using Yarn
-yarn start
-```
+- **User Roles:**  
+  - Users can act as **Event Creators** or **Participants**.  
 
-## Step 2: Start your Application
+- **Event Creation:**  
+  - Intuitive forms for creating events with essential details like name, date, time, and location.  
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- **Event Discovery:**  
+  - Browse and join events hosted by others.  
+  - Follow event organizers for updates on their upcoming events.  
 
-### For Android
+- **Social Connectivity:**  
+  - Invite friends to join events directly within the app.  
+  - View attendee lists and interact with other participants.  
 
-```bash
-# using npm
-npm run android
+- **Responsive UI/UX:**  
+  - Designed with mobile-first principles for smooth navigation and accessibility.  
+  - Engaging, modern aesthetics to appeal to a wide user base.  
 
-# OR using Yarn
-yarn android
-```
+---
 
-### For iOS
+## **Approach and Expertise**
 
-```bash
-# using npm
-npm run ios
+1. **Understanding Goals:**  
+   - Focused on creating an event-focused app UI that encourages interaction and community engagement.  
 
-# OR using Yarn
-yarn ios
-```
+2. **Gathering Data:**  
+   - Researched top event management apps to identify essential design elements and user expectations.  
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+3. **Designing and Development:**  
+   - Created wireframes and high-fidelity prototypes using **Figma** to map out user journeys.  
+   - Developed the UI with **React Native**, incorporating dummy data to simulate real-world usage.  
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+4. **Optimization and Feedback:**  
+   - Iterated on designs based on mock user feedback to ensure the interface was both attractive and functional.  
 
-## Step 3: Modifying your App
+---
 
-Now that you have successfully run the app, let's modify it.
+## **Bonuses Users Get From the App**
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- **Personalized Event Feeds:**  
+  Events tailored to users' interests and location.  
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+- **Organized Friend Invitations:**  
+  A streamlined process to invite friends with just a few taps.  
 
-## Congratulations! :tada:
+- **Smooth Interactions:**  
+  Responsive design ensures no lags or interruptions while navigating.  
 
-You've successfully run and modified your React Native App. :partying_face:
+- **Realistic Prototyping:**  
+  Fully functional prototype with dummy data to illustrate potential user flows.  
 
-### Now what?
+---
+### **Figma Design**
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+[EventHub Figma Design](https://www.figma.com/design/j4StNNczVC2HM9t3gminvj/Event-Booking-App--EventHub-(Community)-(Community))
 
-# Troubleshooting
+---
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+### **APK File**
+[EventHub App APK](https://drive.google.com/file/d/1xeUGRYFa6q4SFoLNAUYc14mw8c_A1NVr/view?usp=sharing)
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+This project demonstrates my expertise in creating engaging and functional **UI/UX designs** for mobile applications, emphasizing user interaction and simplicity while showcasing technical proficiency in **React Native**.
